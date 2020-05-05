@@ -15,3 +15,7 @@ Example:
 `stack build`
 
 `stack exec dhi`
+
+Or ya know, both:
+
+`stack build && stack exec dhi`

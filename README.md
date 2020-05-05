@@ -6,6 +6,10 @@ A library for taking a function, finding approximations for the integral, and us
 
 i.e. Take f, and get g = int(f, a, b) over and over again until we can find h = int(f)
 
+Example:
+
+![test integral](./test-eq.png)
+
 ## Running
 
 `stack build`

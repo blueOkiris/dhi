@@ -1,7 +1,7 @@
 module PolyFit(polyFit) where
 
 import Data.Matrix(matrix, fromList, inverse, toList, setElem, multStd2, Matrix)
-import Debug.Trace
+--import Debug.Trace
 
 polyFit             :: [(Double, Double)] -> Double -> (Double -> Double)
 polyFitStart        :: [(Double, Double)] -> Double -> Int -> (Double -> Double)
@@ -19,7 +19,7 @@ polyFit points maxError =
 
 -- The actual polyfit
 polyFitStart points maxError degreeStart
-    | err <= maxError = trace (show err) $
+    | err <= maxError = --trace (show err) $
                         function
     | otherwise =       polyFitStart points maxError (degreeStart + 1)
     where

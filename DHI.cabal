@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 26f3bf61e4610a662ab2a3b8a204cf48b6cf7fd282bba974b41a3cbb4f430813
+-- hash: dd7f1de41c2603e0fe349acd43e1ea823335e9c6323b7ad080ded72c582b61e3
 
 name:           DHI
 version:        0.1.0.0
@@ -43,6 +43,7 @@ library
 executable dhi
   main-is: Main.hs
   other-modules:
+      DHI
       Paths_DHI
   hs-source-dirs:
       app

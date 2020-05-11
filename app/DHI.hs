@@ -10,3 +10,9 @@ integrate fx bounds stepSize maxError =
     where
         dataPoints =    estimateIntegralEquation fx (fst bounds) (snd bounds) stepSize
         intFx =         polyFit dataPoints maxError
+
+-- Export out th polyfit for general use
+makePolynomial :: [(Double, Double)] -> Double -> (Double -> Double)
+makePolynomial points maxError =
+    polyFit points maxError
+    

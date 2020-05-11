@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: dd7f1de41c2603e0fe349acd43e1ea823335e9c6323b7ad080ded72c582b61e3
+-- hash: 616afb15dcac59276ed34efcf597d02b9210d064034e22716d7dfa9c7f3a8e9b
 
 name:           DHI
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/DHI#readme>
-homepage:       https://github.com/githubuser/DHI#readme
-bug-reports:    https://github.com/githubuser/DHI/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/blueOkiris/DHI>
+homepage:       https://github.com/blueOkiris/DHI#readme
+bug-reports:    https://github.com/blueOkiris/DHI/issues
+author:         Dylan Turner
+maintainer:     dylantdmt@gmail.com
+copyright:      2020 Dylan Turner
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/DHI
+  location: https://github.com/blueOkiris/DHI
 
 library
   exposed-modules:

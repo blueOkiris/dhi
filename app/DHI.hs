@@ -1,4 +1,4 @@
-module DHI(integrate) where
+module DHI(integrate, makePolynomial) where
 
 import Integral(estimateIntegralEquation)
 import PolyFit(polyFit)
@@ -15,4 +15,3 @@ integrate fx bounds stepSize maxError =
 makePolynomial :: [(Double, Double)] -> Double -> (Double -> Double)
 makePolynomial points maxError =
     polyFit points maxError
-    

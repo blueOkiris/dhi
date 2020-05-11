@@ -1,7 +1,7 @@
 name:                DHI
 version:             0.1.0.0
 github:              "blueOkiris/DHI"
-license:             BSD3
+license:             GPL3
 author:              "Dylan Turner"
 maintainer:          "dylantdmt@gmail.com"
 copyright:           "2020 Dylan Turner"
